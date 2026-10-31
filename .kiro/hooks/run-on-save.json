@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run on Save",
+      "trigger": "PostFileSave",
+      "description": "Runs npm run whenever a file is saved in the workspace",
+      "action": {
+        "type": "command",
+        "command": "npm run"
+      },
+      "enabled": true
+    }
+  ]
+}

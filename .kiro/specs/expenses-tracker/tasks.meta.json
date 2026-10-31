@@ -1,0 +1,243 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Bootstrap project and define shared types": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782231
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435789166
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436532614
+      }
+    ],
+    "2.1 Create `src/utils/validation.ts` with `validateDescription`, `validateAmount`, `validateCategory`, and `validateDate` functions matching the design's validation rules table": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782312
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436535797
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436630415
+      }
+    ],
+    "3.1 Create `src/utils/sortExpenses.ts` implementing `sortExpenses(expenses: Expense[]): Expense[]` using the reverse-then-stable-sort algorithm from the design": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782377
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436539288
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436633980
+      }
+    ],
+    "3.3 Create `src/utils/filterExpenses.ts` implementing `filterExpenses(expenses: Expense[], category: Category | \"All\"): Expense[]`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782443
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436542483
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436637222
+      }
+    ],
+    "4.1 Create `src/utils/storage.ts` with `loadExpenses(): Expense[]` and `saveExpenses(expenses: Expense[]): void`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782543
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436545676
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436640596
+      }
+    ],
+    "5. Checkpoint — verify utilities": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782607
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436653128
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436796286
+      }
+    ],
+    "6.1 Create `src/components/ExpenseForm/ExpenseForm.tsx` and `ExpenseForm.module.css`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782662
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436806258
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437385699
+      }
+    ],
+    "7.1 Create `src/components/FilterBar/FilterBar.tsx` and `FilterBar.module.css`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782713
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436809534
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437389270
+      }
+    ],
+    "8.1 Create `src/components/Summary/Summary.tsx` and `Summary.module.css`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782781
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436812564
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437392672
+      }
+    ],
+    "9.1 Create `src/components/ExpenseItem/ExpenseItem.tsx` and `ExpenseItem.module.css`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782849
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436815717
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437396207
+      }
+    ],
+    "9.2 Create `src/components/ExpenseList/ExpenseList.tsx` and `ExpenseList.module.css`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782907
+      },
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437405570
+      }
+    ],
+    "10.1 Rewrite `src/App.tsx` to own all application state (`expenses`, `activeCategory`), wire all child components together, compute `filteredAndSorted` from utilities, and pass unfiltered expenses to `Summary`": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435782965
+      }
+    ],
+    "11. Checkpoint — full integration and all tests": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793435783027
+      }
+    ],
+    "2. Implement validation utilities": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436630499
+      }
+    ],
+    "3. Implement sorting and filtering utilities": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436637375
+      }
+    ],
+    "4. Implement localStorage persistence utilities": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793436640696
+      }
+    ],
+    "6. Implement `ExpenseForm` component": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437386011
+      }
+    ],
+    "7. Implement `FilterBar` component": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437389435
+      }
+    ],
+    "8. Implement `Summary` component": [
+      {
+        "executionId": "38deff51-8f16-43e9-9ec9-64850679a380",
+        "chatSessionId": "sess_a62d7c74-55e7-4826-9519-c5c99a31aa05",
+        "timestamp": 1793437392869
+      }
+    ]
+  }
+}
